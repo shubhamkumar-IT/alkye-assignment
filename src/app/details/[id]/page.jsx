@@ -36,7 +36,7 @@ export default function PostDetailPage() {
         <img
           src={post.image_url}
           alt={post.title}
-          className="w-full h-[400px] object-cover rounded-xl mb-6"
+          className="w-full h-full object-cover rounded-xl mb-6"
         />
         <div className="max-w-7xl mx-auto px-4 py-10">
           <span className="text-lg bg-black font-medium text-white px-3 py-1 rounded-full inline-block mb-4 animate-slide-up">
